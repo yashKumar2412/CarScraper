@@ -57,3 +57,8 @@ mvn spring-boot:run
 ```
 
 Navigate to the frontend directory and open index.html in your browser.
+
+## Future Improvements
+- The current scripts are initially generated using Cursor and then manually edited by me to analyze each HTML page and update the scraper to extract all relevant information. To scale the project and handle an increasing number of dealerships and locations, we need to automate this process further, minimizing manual effort for each new website.
+- Since the data is dynamic and websites are subject to change, it will be essential to schedule the scraping process to run daily along with data quality checks inside the extractor scripts. This will ensure the data remains accurate and up-to-date.
+- Further exploration of cloud-based tools for scraping may significantly fasten the process.
