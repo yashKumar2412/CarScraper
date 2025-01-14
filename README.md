@@ -46,16 +46,7 @@ Create the car_deals table using the carscraper_db_create.sql script on your pos
 
 Run the Python scripts
 ```code
-python -m scripts.scrapers.audi_scraper
-python -m scripts.scrapers.volvo_scraper
-python -m scripts.scrapers.honda_scraper
-
-python -m scripts.extractors.audi_extractor
-python -m scripts.extractors.volvo_extractor
-python -m scripts.extractors.honda_extractor
-
-python -m scripts.database.csv_merger
-python -m scripts.database.db_write
+python -m scripts.run_all
 ```
 
 Run the backend Spring Boot server
