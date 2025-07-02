@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarScraper - Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" class="home-link">CarScraper</a></h1>
+        <input
+            type="text"
+            id="search-bar"
+            placeholder="Search by model, brand, or keyword..."
+        />
+        <div id="filters">
+            <select id="brand-filter">
+            </select>
+            <input
+                type="number"
+                id="min-price"
+                placeholder="Min Monthly Payment"
+            />
+            <input
+                type="number"
+                id="max-price"
+                placeholder="Max Monthly Payment"
+            />
+            <input
+                type="number"
+                id="min-due"
+                placeholder="Min Due at Signing"
+            />
+            <input
+                type="number"
+                id="max-due"
+                placeholder="Max Due at Signing"
+            />
+            <button id="apply-filters">Apply Filters</button>
+        </div>
+    </header>
+    <main id="car-list">
+        <!-- Cards will be dynamically injected here -->
+    </main>    
+    <script src="script.js"></script>
+</body>
+</html>
