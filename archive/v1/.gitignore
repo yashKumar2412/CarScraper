@@ -1,0 +1,37 @@
+
+---
+
+### `.gitignore`
+```plaintext
+# IDE-specific files
+.idea/
+.vscode/
+
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+
+# Java-specific files
+target/
+*.class
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# CSV and HTML data files (optional)
+data/csv/
+data/html/
+data/img/
+data/text/
+
+# Environment files
+.env
+
+# Node.js
+node_modules/
